@@ -3,6 +3,6 @@
 
 frappe.ui.form.on('Salary', {
 	refresh: function(frm) {
-		console.log('accidently added console.')
+		console.log('accidently added console. kk')
 	}
 });
