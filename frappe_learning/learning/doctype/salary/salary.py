@@ -9,3 +9,5 @@ class Salary(Document):
 		frappe.log_error(title='validate',message='checking commit works or not')
 		print(
 			"""   Revert check""")
+
+		print("After revert check")
