@@ -11,3 +11,5 @@ class Salary(Document):
 			"""   Revert check""")
 
 		print("After revert check")
+
+		frappe.log_error(title='checking',message='revert')
