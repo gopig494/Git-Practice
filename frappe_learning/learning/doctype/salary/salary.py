@@ -6,4 +6,4 @@ from frappe.model.document import Document
 
 class Salary(Document):
 	def validate(self):
-		frappe.log_error(title='validate',message='validation done 4	')
+		frappe.log_error(title='validate',message='validation done 4')
